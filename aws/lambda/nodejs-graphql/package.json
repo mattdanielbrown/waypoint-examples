@@ -4,7 +4,7 @@
   "description": "An Apollo GraphQL server intended to run on AWS Lambda",
   "main": "index.js",
   "dependencies": {
-    "apollo-server-core": "^3.6.3",
+    "apollo-server-core": "^3.10.1",
     "apollo-server-lambda": "^3.6.3"
   },
   "scripts": {
