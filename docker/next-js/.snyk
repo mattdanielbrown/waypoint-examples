@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - next > @babel/core > lodash:
+        patched: '2025-09-05T23:01:28.909Z'
+        id: SNYK-JS-LODASH-567746
+        path: next > @babel/core > lodash
+    - next > @babel/types > lodash:
+        patched: '2025-09-05T23:01:28.909Z'
+        id: SNYK-JS-LODASH-567746
+        path: next > @babel/types > lodash
+    - next > babel-plugin-transform-define > lodash:
+        patched: '2025-09-05T23:01:28.909Z'
+        id: SNYK-JS-LODASH-567746
+        path: next > babel-plugin-transform-define > lodash
+    - next > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2025-09-05T23:01:28.909Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          next > @babel/plugin-transform-modules-commonjs >
+          @babel/helper-module-transforms > lodash
+    - next > styled-jsx > @babel/types > lodash:
+        patched: '2025-09-05T23:01:28.909Z'
+        id: SNYK-JS-LODASH-567746
+        path: next > styled-jsx > @babel/types > lodash
+    - next > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2025-09-05T23:01:28.909Z'
+        id: SNYK-JS-LODASH-567746
+        path: next > @babel/core > @babel/generator > @babel/types > lodash
+    - next > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2025-09-05T23:01:28.909Z'
+        id: SNYK-JS-LODASH-567746
+        path: next > @babel/core > @babel/helpers > @babel/traverse > lodash
+    - next > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2025-09-05T23:01:28.909Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          next > @babel/preset-env > @babel/plugin-transform-classes >
+          @babel/helper-define-map > lodash
+    - next > @babel/preset-env > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-05T23:01:28.909Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          next > @babel/preset-env >
+          @babel/plugin-proposal-unicode-property-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
